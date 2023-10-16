@@ -88,8 +88,8 @@ OUTPUT_MAPPING = {
 #     TOOLS += '(Tool:' + item['toolname'] + '. Description:' + item['description'] + '),'
 # TOOLS += ']'
 
-# TOOLS = 'tool: SearchAndSummarize, description: useful for when you need to answer unknown questions'
-TOOLS = 'None'
+TOOLS = 'tool: SearchAndSummarize, description: useful for when you need to answer unknown questions'
+#TOOLS = 'None'
 
 
 class CheckRoles(Action):

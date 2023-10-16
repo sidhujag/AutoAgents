@@ -18,7 +18,7 @@ ENV HOME=/home/user \
 	PATH=/home/user/.local/bin:$PATH
 
 # Install Python dependencies and install autoagents
-RUN git clone https://github.com/LinkSoul-AI/AutoAgents autoagents && \
+RUN git clone https://github.com/sidhujag/AutoAgents autoagents && \
     cd autoagents && \
     pip install -r requirements.txt --user && \
     python setup.py install && \

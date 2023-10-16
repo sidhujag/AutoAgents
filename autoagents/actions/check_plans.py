@@ -59,8 +59,8 @@ OUTPUT_MAPPING = {
     "Suggestions": (str, ...),
 }
 
-# TOOLS = 'tool: SearchAndSummarize, description: useful for when you need to answer unknown questions'
-TOOLS = 'None'
+TOOLS = 'tool: SearchAndSummarize, description: useful for when you need to answer unknown questions'
+#TOOLS = 'None'
 
 
 class CheckPlans(Action):
